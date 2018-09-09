@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My Experiences and Projects</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    
+    <body>
+        <div>
+            <ul class="navBar">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="activities.html"> My experiences and projects </a> </li>
+                <li> <a href="contact.html">Contact Me </a> </li>
+            </ul>
+        </div>
+        
+        <div class="leftTwo topTwo rightTwo">
+            
+            <script> 
+            function toggle() {
+                if 
+            }
+            </script>
+            <h2>Courses I have taken <input type="image" id="courses" src="images/button-4.png" onclick="toggle()"> </h2>
+            <div id="coursesList" class="hidden leftTwo">
+                <a href="http://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=me20n&collapse=">Haptics: Engineering Touch </a>
+                <br>
+                <br>
+                <a href="http://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=math61cm&collapse=">Modern Mathematics: Continuous Methods</a>
+                <br>
+                <br>
+                <a href="http://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=cs+106x%3A+Programming+Abstractions+%28Accelerated%29+&collapse=">Programming Abstractions (Accelerated)</a>
+                <br>
+                <br>
+                <a href="http://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=think+50%3A+empathy&collapse=">Empathy</a>
+                <br>
+            </div>
+            
+            <script type="text/javascript">
+                function toggle() {
+                    var element = document.getElementById("coursesList");
+                    if (element.style.display== "block") {
+                        element.style.display = "none";
+                    }
+                    else {
+                        element.style.display = "block";
+                    }
+            
+                    var but = document.getElementById("courses")  ;
+                    if (but.src.endsWith("button-4.png")) {
+                        but.src = "images/button-3.png";
+                    }
+                    else {
+                        but.src = "images/button-4.png";
+                    }
+                }
+            </script>
+            
+            <h2>My projects <input type="image" id="projects" src="images/button-4.png" onclick="toggle2()"> </h2>
+            <div id="projectList" class="hidden leftTwo rightTwo">
+                <a href="http://charm.stanford.edu/ME20N2017/GoliGrace"><img src="images/Screen%20Shot%202017-12-14%20at%2011.56.48%20AM.png" height="200" width="200" alt="Navigation by Haptics"></a>
+                <br>
+                <a href="http://charm.stanford.edu/ME20N2017/GoliGrace"> Navigation by Haptics </a>
+                <br>
+                <p>This was a class project for a course I took(<a href="http://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=me20n&collapse=">Haptics: Engineering Touch </a>), A wristband which gives directional hints by haptic feedbacks. More specifically, there are two vibrating motors on the wristband. They vibrate according to the direction which the user should take on a path This path is determined by a map which the bracelet/wristband is connected to. This idea came to us from our own experience of biking in the large campus of stanford and getting lost so often (especially as freshmen). While biking we cannot see our map on our phones (because we are using our both hands to ride), and we also cannot here the map's voice because we are riding in an open space and using headphones can be distracting, So we should use a third type of input feature of our bodies, our sense of touch.</p>
+                <p>You can read more about our project <a href="http://charm.stanford.edu/ME20N2017/GoliGrace">here</a>. There is also a Stanford news article about our class and projects <a href="https://news.stanford.edu/2017/12/18/students-enhance-computers-robots-touch/">here</a>.</p>
+            
+            </div>
+            
+            <script type="text/javascript">
+                function toggle2() {
+                    var element = document.getElementById("projectList");
+                    if (element.style.display== "block") {
+                        element.style.display = "none";
+                    }
+                    else {
+                        element.style.display = "block";
+                    }
+            
+                    var but = document.getElementById("projects")  ;
+                    if (but.src.endsWith("button-4.png")) {
+                        but.src = "images/button-3.png";
+                    }
+                    else {
+                        but.src = "images/button-4.png";
+                    }
+                }
+            </script>
+            
+            <h2>Contests and competitions <input type="image" id="contests" src="images/button-4.png" onclick="toggle3()"></h2>
+            
+            <div id="contestList" class="hidden leftTwo rightTwo">
+                <p>When I was a highschooler, I was really interested in <a href="https://en.wikipedia.org/wiki/Competitive_programming">competitive programming</a>.<br>I managed to win some awards in these kinds of competitions during high school, some of them listed bellow: </p>
+                
+                <p class="leftTwo">Silver medal in <a href="http://apio2016.org/results.html"> Asia-Pacific Informatics Olympiad</a>, 2016 <br><br>Gold medal in Iranian National Olympiad in Informatics, summer of 2015 <br><br>Bronze medal in Iranian National Olympiad in Informatics, summer of 2014<br><br>(You can read about Iranian National Olympiad in Informatics <a href="http://ioinformatics.org/oi/pdf/v11si_2017_25_33.pdf">here</a>)
+                </p>
+                <br>
+                <p>
+                    I was also a platinum division (highest division) contestant in <a href="http://www.usaco.org/index.php?page=contests">USA Computing Olympiad online contests</a>. <br><br>I also used to participate in a lot of <a href="http://codeforces.com/"> Codeforces website </a> online contests. (my most favorite contests, I could participate in them from my comfortable room and the regular ones lasted only for 2 hours). <a href="http://codeforces.com/profile/_iris_">Here</a> is my codeforces account.
+                </p>
+                
+            </div>
+            
+            <script type="text/javascript">
+                function toggle3() {
+                    var element = document.getElementById("contestList");
+                    if (element.style.display== "block") {
+                        element.style.display = "none";
+                    }
+                    else {
+                        element.style.display = "block";
+                    }
+            
+                    var but = document.getElementById("contests")  ;
+                    if (but.src.endsWith("button-4.png")) {
+                        but.src = "images/button-3.png";
+                    }
+                    else {
+                        but.src = "images/button-4.png";
+                    }
+                }
+            </script>
+            
+            <h2>Other experiences <input type="image" id="exp" src="images/button-4.png" onclick="toggle4()"></h2>
+            <div id="expList" class="hidden leftTwo rightTwo">
+                <a href="http://roboticsclub.stanford.edu/">Stanford Robotics Club </a>, Social Robotics CS team member, fall of 2017 <br><br>
+                Member of <a href="http://web.stanford.edu/~ezachos/swimm/index.html">Stanford Women in Math Mentoring program</a>, 2017-18 <br><br>
+                Teaching and tutoring some topics in math and computer science to younger high school or middle school students, 2015-2017 <br><br>
+                Blogger at <a href="http://shaazzz.ir/">shaazzz</a>, a blog for providing resources for students, interested in competitive programming and Olympiad in Informatics competitions, 2016 <br><br>
+            </div>
+            
+             <script type="text/javascript">
+                function toggle4() {
+                    var element = document.getElementById("expList");
+                    if (element.style.display== "block") {
+                        element.style.display = "none";
+                    }
+                    else {
+                        element.style.display = "block";
+                    }
+            
+                    var but = document.getElementById("exp")  ;
+                    if (but.src.endsWith("button-4.png")) {
+                        but.src = "images/button-3.png";
+                    }
+                    else {
+                        but.src = "images/button-4.png";
+                    }
+                }
+            </script>
+        
+            <p>(Click on the green plus buttons to read more and then the red buttons to close ... )</p>
+        </div>
+        
+        
+        
+    </body>
+</html>
